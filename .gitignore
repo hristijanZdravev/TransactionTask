@@ -1,0 +1,68 @@
+# .NET
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vscode/
+*.db
+*.pdb
+*.cache
+*.log
+*.nupkg
+*.snupkg
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+
+# ASP.NET specific
+appsettings.Development.json
+appsettings.Local.json
+
+# Angular
+_TransactionTaskClient/node_modules/
+_TransactionTaskClient/dist/
+_TransactionTaskClient/.angular/
+_TransactionTaskClient/.env
+_TransactionTaskClient/.env.*.local
+_TransactionTaskClient/*.local.*
+_TransactionTaskClient/.vscode/
+
+# IDE/Tooling
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+Desktop.ini
+
+# Others
+*.bak
+*.old
+*.tmp
+*.orig
+*.rej
+
+# Test coverage
+coverage/
+_TransactionTaskClient/coverage/
+
+# Optional lock files
+# Uncomment the one you don't want to commit
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
