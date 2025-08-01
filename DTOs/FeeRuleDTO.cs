@@ -5,7 +5,7 @@ namespace TransactionTask.DTOs
     public class FeeRuleDTO
     {
        public int Id { get; set; }
-       public string Name { get; set; }
+       public string? Name { get; set; }
 
         internal FeeRuleDTO toDTO(FeeRule fr)
         {
